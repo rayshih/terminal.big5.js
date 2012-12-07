@@ -1,8 +1,8 @@
 {
-    "name": "terminal.js"
-  , "version": "0.0.2"
-  , "author": "Enno Boland <eb@s01.de>"
-  , "description": "terminal emulation library for javascript."
+    "name": "terminal.big5.js"
+  , "version": "0.1.0"
+  , "author": "Ray Shih <mnf.shih@gmail.com>"
+  , "description": "terminal emulation library for javascript with big5 support. fork from github.com/c3ks/terminal.js"
   , "private": false
   , "scripts": {
       "install": "make BROWSERBUILD=browserbuild"
@@ -11,16 +11,18 @@
   , "main": "./index"
   , "repository": {
       "type": "git"
-    , "url": "https://github.com/c3ks/terminal.js.git"
+    , "url": "https://github.com/rayshih/terminal.big5.js.git"
   }
   , "keywords": [
       "vt100"
+	, "big5"
     , "xterm"
     , "vt"
     , "terminal"
   ]
   , "dependencies": {
       "browserbuild": "0.4.x"
+	, "iconv": "1.2.4"
   }
   , "devDependencies": {
       "mocha": "0.10.0"
