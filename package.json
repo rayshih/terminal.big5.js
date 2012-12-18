@@ -1,6 +1,6 @@
 {
     "name": "terminal.big5.js"
-  , "version": "0.1.0"
+  , "version": "0.1.1"
   , "author": "Ray Shih <mnf.shih@gmail.com>"
   , "description": "terminal emulation library for javascript with big5 support. fork from github.com/c3ks/terminal.js"
   , "private": false
